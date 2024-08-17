@@ -7,4 +7,7 @@ StorageLot
  you have last 30 days data available to you.
  now write two functions 1)whether you accept the box or not
                          2)totalprofit made
-it should be a class oriented approach ,you can use helper funtioncs as well
+it should be a class oriented approach ,you can use helper functions as well
+
+
+approach - try to check the available space to keep the box and  calculate the profit that it can make by storing it for x no of days,  from last 30 days data  calculate profit per day earned (also how much can it make for x noofdays)  and now  check if profit of box is greater than or equal to the profit(last 30 days) then I accept the box
