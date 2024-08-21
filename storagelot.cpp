@@ -37,6 +37,7 @@ class store
             for (int i = 0; i < noofdays; ++i)
                 profit.push_back(rent);
             return newprofit;
+        }
         else
             return 0;
     }
@@ -49,7 +50,8 @@ class store
         return totalprofit;
     }
 };
-int main() {
+int main()
+{
     store myStore(10, 10);
     bool item1 = myStore.acceptbox(2, 2, 4, 10);
     if (!item1)
